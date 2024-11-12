@@ -14,10 +14,18 @@ public class ServicoNota
 
     public async Task<Result<Nota>> InserirAsync(Nota nota)
     {
-        var resultadoValidacao = nota.Validar();
+        var validador = new ValidadorNota();
 
-        if (resultadoValidacao.Count > 0)
-            return Result.Fail(resultadoValidacao);
+        var resultadoValidacao = await validador.ValidateAsync(nota);
+
+        if (!resultadoValidacao.IsValid)
+        {
+            var erros = resultadoValidacao.Errors
+                .Select(failure => failure.ErrorMessage)
+                .ToList();
+
+            return Result.Fail(erros);
+        }
 
         await _repositorioNota.InserirAsync(nota);
 
@@ -26,10 +34,18 @@ public class ServicoNota
 
     public async Task<Result<Nota>> EditarAsync(Nota nota)
     {
-        var resultadoValidacao = nota.Validar();
+        var validador = new ValidadorNota();
 
-        if (resultadoValidacao.Count > 0)
-            return Result.Fail(resultadoValidacao);
+        var resultadoValidacao = await validador.ValidateAsync(nota);
+
+        if (!resultadoValidacao.IsValid)
+        {
+            var erros = resultadoValidacao.Errors
+                .Select(failure => failure.ErrorMessage)
+                .ToList();
+
+            return Result.Fail(erros);
+        }
 
         _repositorioNota.Editar(nota);
 
@@ -55,6 +71,22 @@ public class ServicoNota
     public async Task<Result<Nota>> SelecionarPorIdAsync(Guid id)
     {
         var nota = await _repositorioNota.SelecionarPorIdAsync(id);
+
+        return Result.Ok(nota);
+    }
+
+    public async Task<Result<List<Nota>>> Filtrar(Func<Nota, bool> predicate)
+    {
+        var notas = await _repositorioNota.Filtrar(predicate);
+
+        return Result.Ok(notas);
+    }
+
+    public Result<Nota> AlterarStatus(Nota nota)
+    {
+        nota.Arquivada = !nota.Arquivada;
+
+        _repositorioNota.Editar(nota);
 
         return Result.Ok(nota);
     }

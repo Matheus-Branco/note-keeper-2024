@@ -1,4 +1,3 @@
-
 using Microsoft.EntityFrameworkCore;
 using NoteKeeper.Aplicacao.ModuloCategoria;
 using NoteKeeper.Aplicacao.ModuloNota;

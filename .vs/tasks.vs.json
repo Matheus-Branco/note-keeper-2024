@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-note-keeper-2024",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

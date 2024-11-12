@@ -18,15 +18,5 @@ namespace NoteKeeper.Dominio.ModuloCategoria
         {
             Titulo = titulo;
         }
-
-        public override List<string> Validar()
-        {
-            List<string> erros = [];
-
-            if (string.IsNullOrEmpty(Titulo))
-                erros.Add("O título é obrigatório");
-
-            return erros;
-        }
     }
 }

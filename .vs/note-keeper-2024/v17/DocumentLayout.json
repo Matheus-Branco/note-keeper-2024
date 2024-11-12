@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.WebApi\\ViewModels\\NotaViewModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\NoteKeeper.WebApi\\ViewModels\\NotaViewModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.WebApi\\Controllers\\NotaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\NoteKeeper.WebApi\\Controllers\\NotaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Infra.Orm\\ModuloNota\\RepositorioNotaOrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\NoteKeeper.Infra.Orm\\ModuloNota\\RepositorioNotaOrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Infra.Orm\\Compartilhado\\MigradorBancoDados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\NoteKeeper.Infra.Orm\\Compartilhado\\MigradorBancoDados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Infra.Orm\\Compartilhado\\RepositorioBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\NoteKeeper.Infra.Orm\\Compartilhado\\RepositorioBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Aplicacao\\ModuloNota\\ServicoNota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\NoteKeeper.Aplicacao\\ModuloNota\\ServicoNota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Dominio\\ModuloNota\\IRepositorioNota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\NoteKeeper.Dominio\\ModuloNota\\IRepositorioNota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.WebApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\NoteKeeper.WebApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotaViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.WebApi\\ViewModels\\NotaViewModels.cs",
+              "RelativeDocumentMoniker": "server\\NoteKeeper.WebApi\\ViewModels\\NotaViewModels.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.WebApi\\ViewModels\\NotaViewModels.cs",
+              "RelativeToolTip": "server\\NoteKeeper.WebApi\\ViewModels\\NotaViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T13:34:19.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotaController.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.WebApi\\Controllers\\NotaController.cs",
+              "RelativeDocumentMoniker": "server\\NoteKeeper.WebApi\\Controllers\\NotaController.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.WebApi\\Controllers\\NotaController.cs",
+              "RelativeToolTip": "server\\NoteKeeper.WebApi\\Controllers\\NotaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T13:10:13.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositorioNotaOrm.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Infra.Orm\\ModuloNota\\RepositorioNotaOrm.cs",
+              "RelativeDocumentMoniker": "server\\NoteKeeper.Infra.Orm\\ModuloNota\\RepositorioNotaOrm.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Infra.Orm\\ModuloNota\\RepositorioNotaOrm.cs",
+              "RelativeToolTip": "server\\NoteKeeper.Infra.Orm\\ModuloNota\\RepositorioNotaOrm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:57:12.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MigradorBancoDados.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Infra.Orm\\Compartilhado\\MigradorBancoDados.cs",
+              "RelativeDocumentMoniker": "server\\NoteKeeper.Infra.Orm\\Compartilhado\\MigradorBancoDados.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Infra.Orm\\Compartilhado\\MigradorBancoDados.cs",
+              "RelativeToolTip": "server\\NoteKeeper.Infra.Orm\\Compartilhado\\MigradorBancoDados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:52:17.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RepositorioBase.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Infra.Orm\\Compartilhado\\RepositorioBase.cs",
+              "RelativeDocumentMoniker": "server\\NoteKeeper.Infra.Orm\\Compartilhado\\RepositorioBase.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Infra.Orm\\Compartilhado\\RepositorioBase.cs",
+              "RelativeToolTip": "server\\NoteKeeper.Infra.Orm\\Compartilhado\\RepositorioBase.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:50:55.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServicoNota.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Aplicacao\\ModuloNota\\ServicoNota.cs",
+              "RelativeDocumentMoniker": "server\\NoteKeeper.Aplicacao\\ModuloNota\\ServicoNota.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Aplicacao\\ModuloNota\\ServicoNota.cs",
+              "RelativeToolTip": "server\\NoteKeeper.Aplicacao\\ModuloNota\\ServicoNota.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:46:01.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepositorioNota.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Dominio\\ModuloNota\\IRepositorioNota.cs",
+              "RelativeDocumentMoniker": "server\\NoteKeeper.Dominio\\ModuloNota\\IRepositorioNota.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.Dominio\\ModuloNota\\IRepositorioNota.cs",
+              "RelativeToolTip": "server\\NoteKeeper.Dominio\\ModuloNota\\IRepositorioNota.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:44:14.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "server\\NoteKeeper.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\note-keeper-2024\\server\\NoteKeeper.WebApi\\Program.cs",
+              "RelativeToolTip": "server\\NoteKeeper.WebApi\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:16:26.73Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
