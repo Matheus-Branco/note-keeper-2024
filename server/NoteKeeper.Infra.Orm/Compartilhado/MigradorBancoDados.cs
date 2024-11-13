@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameWorkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace NoteKeeper.Infra.Orm.Compartilhado;
 
@@ -6,18 +6,11 @@ public static class MigradorBancoDados
 {
     public static bool AtualizarBancoDados(DbContext dbContext)
     {
-        var qtdMigracoesPendentes = dbContext.Datadabe.GetPendingMigrations().Count();
+        var qtdMigracoesPendentes = dbContext.Database.GetPendingMigrations().Count();
 
-        if (qtdMigracoesPendentes == 0)
-        {
-            Console.WriteLine("Nenhuma migração pendente, continuando...");
+        if (qtdMigracoesPendentes == 0) return false;
 
-            return false;
-        }
-
-        Console.WriteLine("Aplicando migrações pendentes, isso pode demorar alguns segundos...");
-
-        dbContext.Datadabe.Migrate();
+        dbContext.Database.Migrate();
 
         return true;
     }
