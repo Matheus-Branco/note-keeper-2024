@@ -11,6 +11,7 @@ using NoteKeeper.WebApi.Config;
 using NoteKeeper.WebApi.Config.Mapping;
 using NoteKeeper.WebApi.Config.Mapping.Actions;
 using NoteKeeper.WebApi.Filters;
+using Serilog;
 
 namespace NoteKeeper.WebApi;
 
@@ -23,7 +24,7 @@ public class Program
         // Configuração de Injeção de Dependência
         var builder = WebApplication.CreateBuilder(args);
 
-        var connectionString = builder.Configuration.GetConnectionString("SqlServer");
+        var connectionString = builder.Configuration["SQL_SERVER_CONNECTION_STRING"];
 
         builder.Services.AddDbContext<IContextoPersistencia, NoteKeeperDbContext>(optionsBuilder =>
         {
@@ -67,35 +68,36 @@ public class Program
 
         builder.Services.AddSwaggerGen();
 
+        builder.Services.ConfigureSerilog(builder.Logging, builder.Configuration);
+
         // Middlewares de execução da API
         var app = builder.Build();
 
-        if (app.Environment.IsDevelopment())
-        {
-            app.UseSwagger();
-            app.UseSwaggerUI();
+        app.UseSwagger();
+        app.UseSwaggerUI();
 
-            //Migrações de Banco de dados
-            {
-                using var scope = app.Services.CreateScope();
+        var migracaoConcluida = app.AutoMigrateDatabase();
 
-                var dbContext = scope.ServiceProvider.GetRequiredService<IContextoPersistencia>();
-
-                if (dbContext is NoteKeeperDbContext noteKeeperDbContext)
-                {
-                    MigradorBancoDados.AtualizarBancoDados(noteKeeperDbContext);
-                }
-            }
-        }
+        if(migracaoConcluida) Log.Information("Migração de banco de dados concluída");
+        else Log.Information("Nenhuma migração de banco de dados pendente");
 
         app.UseHttpsRedirection();
 
         app.UseCors(politicaCors);
 
-        app.UseAuthorization();
+        app.UseAuthentication();
 
         app.MapControllers();
 
-        app.Run();
+        try
+        {
+            app.Run();
+        }
+        catch (Exception ex)
+        {
+            Log.Fatal("Ocorreu um erro que ocasionou no fechamento da aplicação", ex);
+
+            return;
+        }
     }
 }
