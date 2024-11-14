@@ -1,7 +1,6 @@
-﻿namespace NoteKeeper.Dominio.Compartilhado
+﻿namespace NoteKeeper.Dominio.Compartilhado;
+
+public interface IContextoPersistencia
 {
-    public interface IContextoPersistencia
-    {
-        Task<bool> GravarAsync();
-    }
+    Task<bool> GravarAsync();
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using NoteKeeper.Dominio.ModuloAutenticacao;
 using NoteKeeper.Dominio.ModuloCategoria;
 using NoteKeeper.Infra.Orm.Compartilhado;
 
